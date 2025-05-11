@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Trello API" tests="8" time="3.087">
+  <testsuite name="Get all boards" id="059a7f2f-1c64-436d-847f-25bdbf2b8d98" timestamp="2025-05-09T19:39:38.785Z" tests="1" failures="0" errors="0" time="0.266">
+    <testcase name="status is 200" time="0.266" classname="GetAllBoards"/>
+  </testsuite>
+  <testsuite name="create board" id="75d59d55-ef15-4de7-8091-0818c1940389" timestamp="2025-05-09T19:39:38.785Z" tests="1" failures="0" errors="0" time="0.501">
+    <testcase name="status is 200" time="0.501" classname="CreateBoard"/>
+  </testsuite>
+  <testsuite name="get single board" id="4107e8f8-5240-4b5e-9f90-4232fdf4fc17" timestamp="2025-05-09T19:39:38.785Z" tests="1" failures="0" errors="0" time="0.146">
+    <testcase name="status is 200" time="0.146" classname="GetSingleBoard"/>
+  </testsuite>
+  <testsuite name="create TODO list" id="0233ce07-b0e1-4d44-8faa-61db0b3b92a2" timestamp="2025-05-09T19:39:38.785Z" tests="1" failures="0" errors="0" time="0.185">
+    <testcase name="status is 200" time="0.185" classname="CreateTodoList"/>
+  </testsuite>
+  <testsuite name="create DONE list" id="1bc6c084-3bd1-4943-bb56-26f6570df97e" timestamp="2025-05-09T19:39:38.785Z" tests="1" failures="0" errors="0" time="0.197">
+    <testcase name="status is 200" time="0.197" classname="CreateDoneList"/>
+  </testsuite>
+  <testsuite name="create card" id="748cbfde-3d0d-435b-abf5-1454ed85ed3d" timestamp="2025-05-09T19:39:38.785Z" tests="1" failures="0" errors="0" time="0.281">
+    <testcase name="status is 200" time="0.281" classname="CreateCard"/>
+  </testsuite>
+  <testsuite name="update card" id="b0c5ab56-db44-467a-9c9a-057ab3ebca80" timestamp="2025-05-09T19:39:38.785Z" tests="1" failures="0" errors="0" time="0.277">
+    <testcase name="status is 200" time="0.277" classname="UpdateCard"/>
+  </testsuite>
+  <testsuite name="Delete board" id="ea523d5b-360f-4af2-b9d4-4e50952c9e0a" timestamp="2025-05-09T19:39:38.785Z" tests="1" failures="0" errors="0" time="1.234">
+    <testcase name="status is 200" time="1.234" classname="DeleteBoard"/>
+  </testsuite>
+</testsuites>
